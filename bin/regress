@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# Regression test
+#
+# Run the compiler through a few typical programs
+# to a "gold" standard file
+#
+testprog sample_programs/hello
+testprog sample_programs/roman
+testprog sample_programs/qsort
+#
+# Now run the ISO7185pat compliance test
+#
+testprog standard_tests/iso7185pat
+

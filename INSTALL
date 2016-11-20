@@ -1,0 +1,36 @@
+Installation instructions
+
+To install Pascal-p2, execute:
+
+[Linux]
+
+> ./configure
+> make
+
+[Windows]
+
+> configure
+> make
+
+To access binaries in the project, execute:
+
+[Linux]
+
+./setpath
+
+[Windows]
+
+setpath
+
+Note that you can copy the path set within the setpath or setpath.bat batch file
+to your startup environment to prevent the need to execute this again.
+
+You can then compile and run single Pascal sources with the command:
+
+p2 <file>
+
+The extension .pas is supplied automatically.
+
+Note: Pascal-p2 has an issue where it tries to load the first character of the
+input before the program runs. Because of this, it is usually necessary to
+hit a carriage return to start the program.

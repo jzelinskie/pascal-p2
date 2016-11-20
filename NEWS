@@ -1,0 +1,6 @@
+This is the first release version of Pascal-p2 on Sourceforge.
+
+Pascal-p2 is a runnable archive form of the original Pascal compiler
+from Zurich. There is no intent to fix bugs or perform improvements.
+Any such bug fixes or improvements go into Pascal-p5 or later
+versions.
